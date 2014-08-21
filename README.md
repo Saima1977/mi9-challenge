@@ -5,8 +5,8 @@ Installation
 
 Clone git repository:
 
-    git clone https://github.com/alexgorovoy/test.git
-    cd test
+    git clone https://github.com/Saima1977/mi9-challenge.git
+    cd mi9-challenge
     npm install
 
 Application start:
