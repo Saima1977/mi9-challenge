@@ -1,33 +1,31 @@
 {
-  "name": "mi9-challenge",
-  "author": "Saima1977",
-  "version": "0.0.1",
-  "devDependencies": {
-    "jasmine-node": "latest"
-  },
-  "scripts": {
-    "test": "jasmine-node tests"
-  },
+  "name": "mi9-challenge-from-saima",
+  "version": "0.0.0",
+  "description": "Web Service that returns a tailered response based on posted JSON for Mi9",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.8.4",
-    "logfmt": "^1.1.2"
+    "body-parser": "^1.6.5",
+    "express": "^4.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Saima1977/mi9-challenge.git"
   },
+  "keywords": [
+    "node.js",
+    "json",
+    "post",
+    "web",
+    "service"
+  ],
+  "author": "Saima Shahid",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Saima1977/mi9-challenge/issues"
   },
-  "homepage": "https://github.com/Saima1977/mi9-challenge",
-  "description": "Challenge from mi9 to create web service that process JSON requests",
-  "main": "start.js",
-  "keywords": [
-    "json",
-    "node",
-    "web",
-    "service",
-    "javascript"
-  ],
-  "license": "ISC"
+  "homepage": "https://github.com/Saima1977/mi9-challenge"
 }
